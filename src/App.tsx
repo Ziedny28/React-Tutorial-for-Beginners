@@ -1,12 +1,13 @@
 import Alert from "./components/Alert";
+import Button from "./components/Button";
 import ListGroup from "./components/ListGroup";
 
 function App() {
   return (
     <div>
-      <Alert>
-        <span>ByeWorld</span>
-      </Alert>
+      <Button color="info" onClick={() => console.log("clicked")}>
+        button but from app tsx
+      </Button>
     </div>
   );
 }
